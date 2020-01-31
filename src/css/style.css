@@ -253,7 +253,7 @@ ul {
 }
 .scroll-down:before {
   position: absolute;
-  top: calc(50<img class="card-img-top"src="..."alt="Card image cap"/>% - 8px);
+  top: calc(50% - 8px);
   left: calc(50% - 6px);
   transform: rotate(-45deg);
   display: block;
