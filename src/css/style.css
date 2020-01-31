@@ -1,0 +1,516 @@
+body {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 0.8px;
+  word-wrap: break-word;
+  font-weight: 400;
+  background-color: #fff;
+  color: #6f6f6f;
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.imgt {
+  height: 150px;
+  width: 150px;
+}
+
+.oh {
+  font-family: "Raleway", sans-serif;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  color: #f1f1f1;
+  width: 200px;
+  height: 100%;
+  padding: 20px;
+  box-shadow: 2px 2px 5px white;
+}
+
+.yo {
+  font-size: 15px;
+  color: black;
+}
+.yo:hover {
+  color: red;
+}
+
+.video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+a {
+  color: white;
+}
+
+.imgs {
+  width: 150px;
+  height: 150px;
+  border-radius: 80%;
+}
+
+.cont {
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  box-sizing: border-box;
+}
+
+.ss {
+  width: 250px;
+  height: 300px;
+}
+.ss:hover {
+  opacity: 1;
+  -webkit-animation: flash 1.5s;
+  animation: flash 1.5s;
+}
+
+@-webkit-keyframes;
+flash {
+  opacity: 0.4 100%;
+  opacity: 1;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+@keyframes;
+flash {
+  opacity: 0.4;
+}
+
+blink-caret from,
+blink-caret to {
+  border-color: transparent;
+}
+
+h1 {
+  font-family: "Bangers", cursive;
+  text-align: center;
+  color: black;
+}
+
+.content {
+  z-index: 3;
+}
+
+* {
+  text-decoration: none;
+}
+
+.cp {
+  justify-content: center;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.place {
+  padding-left: 50px;
+  font-family: "Roboto";
+}
+.place span {
+  color: #ff4b36;
+}
+.place h3 {
+  color: #ffffff;
+}
+
+.conte {
+  justify-content: center;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.spa {
+  overflow: hidden;
+  border-right: 0.15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 7s steps(40, end);
+  color: #ff4b36;
+  font-size: 24px;
+}
+
+@keyframes;
+typing from {
+  width: 0%;
+}
+
+bounce {
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+
+animateBar {
+  transform: translateX(-100%);
+}
+
+to {
+  width: 100% 50%;
+  border-color: #ff4b36;
+}
+
+.para {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  color: #6f6f6f;
+}
+
+.tout {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-image: url(../images/vraigris.jpg);
+}
+
+.cou {
+  color: #ff4b36;
+}
+
+.hhh {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+  font-family: "Raleway";
+  color: #000;
+}
+
+hr {
+  color: #ff4b36;
+}
+
+.bo {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.img1 {
+  width: 20px;
+  height: 20px;
+}
+
+.con {
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+  top: 110%;
+  left: 60%;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  text-decoration: none;
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.scroll-down {
+  opacity: 1;
+  -webkit-transition: all 0.5s ease-in 3s;
+  transition: all 0.5s ease-in 3s;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -16px;
+  display: block;
+  width: 32px;
+  height: 32px;
+  border: 2px solid #FFF;
+  background-size: 14px auto;
+  border-radius: 50%;
+  z-index: 2;
+  -webkit-animation: bounce 2s infinite 2s;
+  animation: bounce 2s infinite 2s;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.scroll-down:before {
+  position: absolute;
+  top: calc(50<img class="card-img-top"src="..."alt="Card image cap"/>% - 8px);
+  left: calc(50% - 6px);
+  transform: rotate(-45deg);
+  display: block;
+  width: 12px;
+  height: 12px;
+  content: "";
+  border: 2px solid white;
+  border-width: 0px 0 2px 2px;
+}
+
+.jj {
+  max-width: 18rem;
+  left: 20%;
+}
+
+.je {
+  max-width: 18rem;
+  left: 30%;
+}
+
+.jg {
+  max-width: 18rem;
+  left: 40%;
+}
+
+.full {
+  background-image: url(../images/fd.png);
+  font-family: "Raleway";
+  max-width: 18rem;
+  max-height: 18rem;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.08);
+}
+.full span {
+  color: #ff4b36;
+}
+
+.typewrite {
+  text-decoration: none;
+  color: white;
+}
+
+.cc {
+  width: 85%;
+}
+
+.dd {
+  width: 70%;
+}
+
+.ee {
+  width: 60%;
+}
+
+.ii {
+  width: 80%;
+}
+
+.progress .progress-bar {
+  animation-name: animateBar;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.4s;
+}
+
+.tit h2 {
+  margin-left: 200px;
+  font-family: "Raleway";
+}
+
+.pos {
+  background-image: url(../images/fd.png);
+  font-family: "Raleway";
+}
+.pos h2 {
+  font-size: 23px;
+}
+
+.oi {
+  margin-left: 150px;
+}
+
+.pld h2 {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.4;
+  font-family: "Raleway";
+  color: #ffffff;
+  margin-top: 50px;
+  letter-spacing: 0.8px;
+}
+.pld h2 span {
+  color: #ff4b36;
+}
+.pld p {
+  line-height: 2;
+  color: #d4d4d4;
+}
+
+.dep {
+  margin-left: 250px;
+}
+
+.spo span {
+  color: #ff4b36;
+}
+
+nav {
+  background-color: #34495e;
+  height: 80px;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  z-index: 999;
+}
+
+#logo {
+  height: 80px;
+  margin-left: 20px;
+}
+
+.wrapper {
+  padding: 50px 50px;
+  max-width: 1200px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  padding: 20px 20px;
+}
+
+.right {
+  float: right !important;
+}
+
+.parent {
+  width: 45%;
+  margin: 20px;
+  height: 300px;
+  border: 1px solid blue;
+  overflow: hidden;
+  position: relative;
+  float: left;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.child {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.child:before {
+  content: "";
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(52, 73, 94, 0.75);
+}
+
+.bg-one {
+  background-image: url(../images/emp.png);
+}
+
+.bg-two {
+  background-image: url(../images/emp2.png);
+}
+
+.bg-three {
+  background-image: url(../images/emp3.png);
+}
+
+.bg-four {
+  background-image: url(../images/chef3.png);
+}
+
+.bg-five {
+  background-image: url(../images/you2.png);
+}
+
+.bg-six {
+  background-image: url(../images/you.png);
+}
+
+.done {
+  padding-left: 200px;
+  background-image: url(../images/fd.png);
+}
+.done h1 {
+  color: #ff4b36;
+}
+.done h2 {
+  color: #ff4b36;
+}
+.done a {
+  display: none;
+  font-size: 35px;
+  color: #ffffff !important;
+  font-family: sans-serif;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 50px;
+  cursor: pointer;
+}
+
+.parent:hover .child, .parent:focus .child {
+  -ms-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.parent:hover .child:before, .parent:focus .child:before {
+  display: block;
+}
+
+.parent:hover a, .parent:focus a {
+  display: block;
+}
+.parent:hover a .hello, .parent:focus a .hello {
+  display: none;
+}
+
+.glo {
+  padding-left: 250px;
+  font-family: "Roboto";
+}
+.glo input {
+  margin: 20px 0px;
+  width: 300px;
+  border: none;
+  padding: 5px 0;
+  border-bottom: solid 1px #E91E63;
+  color: #E91E63;
+}
+.glo .chem {
+  font-size: 10px;
+  line-height: 2;
+}
+.glo .chom {
+  padding-top: 90px;
+}
+.glo span {
+  color: #ff4b36;
+}
+
+/*# sourceMappingURL=style.css.map */
