@@ -2,17 +2,17 @@ import React from 'react'
 import Img from '../images/ims.jpg'
 
 const About = () => {
-    
+
     return (
-        <div className='tout' id ='out'>
-            <div className ='tit' >
+        <div className='tout' id='out'>
+            <div className='tit' >
 
                 <h2>About Me</h2>
                 <hr />
                 <hr />
             </div>
             <div className=' row conte'>
-                
+
                 <div className='col-3 col-s-3 flash'>
                     <img className='ss' src={Img} alt="" />
                 </div>
@@ -26,7 +26,7 @@ J'apprécie chaque étape du processus de conception, de la discussion et de la 
                             <li>Localisation: <span>Bruxelles,anderlecht</span></li>
                             <li>Etude: <span>Molengeek</span></li>
                             <li>Mail: <span>xfa1070@hotmail.com</span></li>
-                                
+
                         </ul>
                         <ul className='col-6 col-s-6 spo'>
                             <li>Age:<span>23 ans</span></li>
@@ -36,16 +36,16 @@ J'apprécie chaque étape du processus de conception, de la discussion et de la 
                         </ul>
                     </div>
                     <div>
-                    <ul>
-                        <li>
-                            <button type="button" class="btn btn-danger">Download CV</button>
-                            <button type="button" class="btn btn-danger">Send Message</button>
-                        </li>
-                    </ul>
+                        <ul>
+                            <li>
+                                <button type="button" className="btn btn-danger marg">Download CV</button>
+                                <button type="button" className="btn btn-danger">Send Message</button>
+                            </li>
+                        </ul>
 
+                    </div>
                 </div>
-                </div>
-                
+
 
             </div>
         </div>

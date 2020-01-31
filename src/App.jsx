@@ -8,18 +8,18 @@ import './css/style.css'
 
 const App = () => {
 
-  return(
-<div>
-<Nave />
-<About />
-<Service />
-<Portfolio />
-<Contact />
+  return (
+    <div>
+      <Nave />
+      <About />
+      <Service />
+      <Portfolio />
+      <Contact />
 
 
 
 
-</div>
+    </div>
 
 
   )

@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto";
-  font-size: 16px;
+  font-size: 16pxi;
   line-height: 2;
   letter-spacing: 0.8px;
   word-wrap: break-word;
@@ -280,7 +280,7 @@ ul {
 }
 
 .full {
-  background-image: url(../images/fd.png);
+  background-image: url(../images/gala.jpg);
   font-family: "Raleway";
   max-width: 18rem;
   max-height: 18rem;
@@ -324,7 +324,7 @@ ul {
 }
 
 .pos {
-  background-image: url(../images/fd.png);
+  background-image: url(../images/gala.jpg);
   font-family: "Raleway";
 }
 .pos h2 {
@@ -354,6 +354,7 @@ ul {
 
 .dep {
   margin-left: 250px;
+  background-image: url(../images/gala.jpg);
 }
 
 .spo span {
@@ -511,6 +512,18 @@ nav {
 }
 .glo span {
   color: #ff4b36;
+}
+
+.a video {
+  padding-right: 0px;
+}
+
+.marg {
+  margin-right: 15px;
+}
+
+hr {
+  background-color: #ff4b36;
 }
 
 /*# sourceMappingURL=style.css.map */
